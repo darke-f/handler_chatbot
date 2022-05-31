@@ -1,0 +1,48 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Yo", "Heya", "Howdy", "Good day"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?", "Welcome!"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "Farewell", "Bye", "I have to go", "Take care", "Later"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!", "I will leave you to prepare"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?", "what are you?", "who are you?", "who is there?"],
+         "responses": ["You can call me the Handler.", "I'm the Handler!", "I'm the Handler, your personal assistant here"],
+         "context_set": ""
+        },
+        {"tag": "function",
+         "patterns": ["what can you do?", "what do you do?", "what is your function?", "what is your purpose?", "can you help me?", "why are you created?"],
+         "responses": ["I'm here as your guide in learning more about my creator, Ariiq", "You can ask me questions relating to my creator, and i will answer as best i can"],
+         "context_set": ""
+        },
+        {"tag": "creator",
+         "patterns": ["who made you?", "who is your creator?", "who is ariiq?", "what can you tell me about ariiq?"],
+         "responses": ["Ariiq is a computer science graduate from ITS. He specializes in data analytics, database management, and frontend web development"],
+         "context_set": ""
+        },
+        {"tag": "c_edu",
+         "patterns": ["what is ariiq's education?", "what is your creator's education?", "where did ariiq study?", "where did your creator study?", "did ariiq go to university?"],
+         "responses": ["He graduated from ITS, with a bachelor degree in computer science. He also studied abroad for a semester in Okanagan College, Canada"],
+         "context_set": ""
+        },
+        {"tag": "c_work",
+         "patterns": ["what is ariiq's work experience?", "what is your creator's work experience?", "does ariiq have any work experience?", "is ariiq working?", "is your creator working?", "do your creator have any work experience?"],
+         "responses": ["He is not currently working. As far as work experience, he has done some internship before at PT JSMU"],
+         "context_set": ""
+        },
+        {"tag": "c_org",
+         "patterns": ["did ariiq's participate in organizations?", "did ariiq have any extracullicular activites?", "was your creator part of an organization?", "is your creator patrt of an organization?", "is ariiq part of an organization?"],
+         "responses": ["He was part of several organizations during university, which includes AIESEC in Surabaya, Schematics ITS, and HMTC ITS"],
+         "context_set": ""
+        },
+        {"tag": "c_int",
+         "patterns": ["what is ariiq's hobby?", "what is your creator's hobby?", "what does ariiq like to do?", "what does your creator like?", "creator's interest?"],
+         "responses": ["His hobby includes activites such as gaming, cooking, music among other things"],
+         "context_set": ""
+        }
+   ]
+}
